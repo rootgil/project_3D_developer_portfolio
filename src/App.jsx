@@ -12,7 +12,9 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        {/* <Tech /> */}
+        <div className="hidden sm:block">
+          <Tech />
+        </div>  
         <Works />
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
