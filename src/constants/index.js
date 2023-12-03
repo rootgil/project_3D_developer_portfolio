@@ -5,24 +5,29 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  net2all,
+  cyberspector,
+  tensorunit,
+  sonar,
+  att,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  ayifa,
+  python,
+  c,
+  c_p,
+  nest,
+  next,
+  np,
+  pd,
+  plt,
+  skl,
+  tf,
 } from "../assets";
 
 export const navLinks = [
@@ -42,129 +47,157 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Modern UI creator",
+    icon: mobile,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Devops",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data scientist",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Pandas",
+    icon: pd,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Matplotlib",
+    icon: plt,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Sklearn",
+    icon: skl,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: c_p,
+  },
+  {
+    name: "NextJS",
+    icon: next,
+  },
+  {
+    name: "NestJS",
+    icon: nest,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "Pyhton",
+    icon: python,
   },
   {
     name: "docker",
     icon: docker,
+  },{
+    name: "Tensorflow",
+    icon: tf,
+  },
+  {
+    name: "Numpy",
+    icon: np,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full stack developer, AI interest",
+    company_name: "AYIFA",
+    icon: ayifa,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Apr 2022 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Application programming interface",
+      "Landing page development",
+      "I learn a lot of about competitive programming, data structure importance",
+      "Using deeply mongoDB with express",
+      "Talk about AI",
+      "Help colleague in programming"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Datascientist",
+    company_name: "Africa Tech Up tour",
+    icon: att,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2023 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "It was a great experience",
+      "I reviewed the concepts of datascientist from start to finish with data experts.",
+      "We worked on statistics, probability, data analysis, data engineering, machine learning, deeplearning, LLM based on GPT and BERT.",
+      "I then contributed to the development of the ActionFeed platform, a platform based on our BERT model, enabling decision-makers to make decisions based on the positive and negative opinions of users of their platforms in Benin and Africa.",
+      "I'm still learning about MLOPS best practices."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software engineer & AI consultant",
+    company_name: "Sonar",
+    icon: sonar,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2022 - Sep 2023",
+    points: [
+      "Develop rent management fullstack application",
+      "Build system design for backend setup",
+      "develop mobile application for managing electric meter",
+      "Talk about AI advantage",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Net2All",
+    icon: net2all,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Nov 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining API using NodeJS(NestJS)",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "Cyberspector",
+    icon: cyberspector,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining API using NodeJS(NestJS) with microservice architecture",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Datascientist",
+    company_name: "TensorUnit",
+    icon: tensorunit,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - Present",
+    points: [
+      "Developing AI models for specifis problems",
+      "Research about Machine Learning algorithm",
+      "Talk about AI, Machine learning, Deep learning",
+      "Make AI model available on modern and react UI application",
+      "Participating in code reviews",
     ],
   },
 ];
@@ -198,20 +231,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Genius",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform have misic, audio, code generation and chat functionalities",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "openai",
         color: "pink-text-gradient",
       },
     ],
@@ -219,42 +252,50 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Lambda",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application for multilingual e-learning containt. It have auto-dubbing functionnality",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Django Rest",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AI model",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Whisper",
+        color: "green-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Action Feed",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive that help chief to make a good decision based on their clients comments or reviews?",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "AI model",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Hugging face",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
