@@ -187,7 +187,7 @@ const experiences = [
     ],
   },
   {
-    title: "Datascientist",
+    title: "Co-founder & AI scientist",
     company_name: "TensorUnit",
     icon: tensorunit,
     iconBg: "#E6DEDD",

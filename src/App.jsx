@@ -12,7 +12,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <div className="hidden sm:block">
+        <div className="hidden xs:block">
           <Tech />
         </div>  
         <Works />
