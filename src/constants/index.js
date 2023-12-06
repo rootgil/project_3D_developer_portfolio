@@ -191,7 +191,7 @@ const experiences = [
     company_name: "TensorUnit",
     icon: tensorunit,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Present",
+    date: "Dec 2022 - Present",
     points: [
       "Developing AI models for specifis problems",
       "Research about Machine Learning algorithm",
