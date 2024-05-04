@@ -32,10 +32,12 @@ import net2all from "./company/net2all.jpeg";
 import sonar from "./company/sonar.png";
 import ayifa from "./company/ayifa.png";
 import tensorunit from "./company/tensorunit.jpeg";
+import wim from "./company/wim.jpeg"
 
 import carrent from "./work/ai-genius.png";
 import jobit from "./work/lambda.png";
 import tripguide from "./work/af.png";
+import pytorch from "./tech/pytorch.png"
 
 export {
   github,
@@ -72,4 +74,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  pytorch,
+  wim
 };

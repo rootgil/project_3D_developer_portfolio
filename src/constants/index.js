@@ -28,6 +28,8 @@ import {
   plt,
   skl,
   tf,
+  pytorch,
+  wim
 } from "../assets";
 
 export const navLinks = [
@@ -51,35 +53,23 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Web Developer",
+    title: "Developer",
     icon: web,
   },
   {
-    title: "Devops",
+    title: "Machine learning",
     icon: backend,
   },
   {
-    title: "Data scientist",
+    title: "Robotics",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "Pandas",
-    icon: pd,
-  },
-  {
-    name: "Matplotlib",
-    icon: plt,
-  },
-  {
     name: "Sklearn",
     icon: skl,
-  },
-  {
-    name: "C",
-    icon: c,
   },
   {
     name: "C++",
@@ -109,8 +99,8 @@ const technologies = [
     icon: tf,
   },
   {
-    name: "Numpy",
-    icon: np,
+    name: "Pytorch",
+    icon: pytorch,
   },
 ];
 
@@ -187,17 +177,31 @@ const experiences = [
     ],
   },
   {
-    title: "Co-founder & AI scientist",
+    title: "CTO & ML Engineer",
     company_name: "TensorUnit",
     icon: tensorunit,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - Present",
+    date: "April 2024 - Present",
     points: [
       "Developing AI models for specifis problems",
       "Research about Machine Learning algorithm",
       "Talk about AI, Machine learning, Deep learning",
       "Make AI model available on modern and react UI application",
       "Participating in code reviews",
+    ],
+  },
+  {
+    title: "ML Engineer",
+    company_name: "WIM",
+    icon: wim,
+    iconBg: "#E6DEDD",
+    date: "April 2024 - Present",
+    points: [
+      "Developing AI models for specifis problems",
+      "Research about Machine Learning algorithm",
+      "Reading research paper",
+      "Reimpleminting research paper",
+      "R & D process"
     ],
   },
 ];
