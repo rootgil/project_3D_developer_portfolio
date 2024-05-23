@@ -49,11 +49,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Modern UI creator",
+    title: "Modern UI",
     icon: mobile,
   },
   {
-    title: "Developer",
+    title: "Software",
     icon: web,
   },
   {
@@ -106,7 +106,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full stack developer, AI interest",
+    title: "Full-stack web developer (intern)",
     company_name: "AYIFA",
     icon: ayifa,
     iconBg: "#383E56",
@@ -135,7 +135,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software engineer & AI consultant",
+    title: "Software Developer & AI consultant",
     company_name: "Sonar",
     icon: sonar,
     iconBg: "#383E56",
@@ -163,7 +163,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Full-stack Developper",
     company_name: "Cyberspector",
     icon: cyberspector,
     iconBg: "#E6DEDD",
@@ -177,7 +177,7 @@ const experiences = [
     ],
   },
   {
-    title: "CTO & ML Engineer",
+    title: "CTO & AI Developer",
     company_name: "TensorUnit",
     icon: tensorunit,
     iconBg: "#E6DEDD",
@@ -191,7 +191,7 @@ const experiences = [
     ],
   },
   {
-    title: "ML Engineer",
+    title: "AI Developer",
     company_name: "WIM",
     icon: wim,
     iconBg: "#E6DEDD",
