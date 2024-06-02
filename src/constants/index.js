@@ -106,32 +106,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-stack web developer (intern)",
+    title: "Web developer (intern)",
     company_name: "AYIFA",
     icon: ayifa,
     iconBg: "#383E56",
-    date: "Apr 2022 - Sep 2022",
+    date: "Apr 2022 - Jul 2022",
     points: [
       "Application programming interface",
       "Landing page development",
       "I learn a lot of about competitive programming, data structure importance",
       "Using deeply mongoDB with express",
-      "Talk about AI",
       "Help colleague in programming"
-    ],
-  },
-  {
-    title: "Datascientist",
-    company_name: "Africa Tech Up tour",
-    icon: att,
-    iconBg: "#E6DEDD",
-    date: "Jun 2023 - Jun 2023",
-    points: [
-      "It was a great experience",
-      "I reviewed the concepts of datascientist from start to finish with data experts.",
-      "We worked on statistics, probability, data analysis, data engineering, machine learning, deeplearning, LLM based on GPT and BERT.",
-      "I then contributed to the development of the ActionFeed platform, a platform based on our BERT model, enabling decision-makers to make decisions based on the positive and negative opinions of users of their platforms in Benin and Africa.",
-      "I'm still learning about MLOPS best practices."
     ],
   },
   {
@@ -163,11 +148,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full-stack Developper",
+    title: "Full-stack Developer",
     company_name: "Cyberspector",
     icon: cyberspector,
     iconBg: "#E6DEDD",
-    date: "Apr 2023 - Present",
+    date: "Apr 2023 - Mars 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -177,7 +162,7 @@ const experiences = [
     ],
   },
   {
-    title: "CTO & AI Developer",
+    title: "ML Engineer", //CTO & AI Developer
     company_name: "TensorUnit",
     icon: tensorunit,
     iconBg: "#E6DEDD",
