@@ -33,6 +33,7 @@ import sonar from "./company/sonar.png";
 import ayifa from "./company/ayifa.png";
 import tensorunit from "./company/tensorunit.jpeg";
 import wim from "./company/wim.jpeg"
+import ouebx from "./company/ouebx.png"
 
 import carrent from "./work/ai-genius.png";
 import jobit from "./work/lambda.png";
@@ -75,5 +76,6 @@ export {
   jobit,
   tripguide,
   pytorch,
-  wim
+  wim,
+  ouebx
 };

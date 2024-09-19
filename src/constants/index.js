@@ -29,7 +29,8 @@ import {
   skl,
   tf,
   pytorch,
-  wim
+  wim,
+  ouebx
 } from "../assets";
 
 export const navLinks = [
@@ -120,7 +121,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer & AI consultant",
+    title: "Software Developer",
     company_name: "Sonar",
     icon: sonar,
     iconBg: "#383E56",
@@ -162,11 +163,11 @@ const experiences = [
     ],
   },
   {
-    title: "ML Engineer", //CTO & AI Developer
+    title: "Head R & D", //CTO & AI Developer
     company_name: "TensorUnit",
     icon: tensorunit,
     iconBg: "#E6DEDD",
-    date: "April 2024 - Present",
+    date: "", //April 2024 - Present
     points: [
       "Developing AI models for specifis problems",
       "Research about Machine Learning algorithm",
@@ -176,7 +177,7 @@ const experiences = [
     ],
   },
   {
-    title: "AI Developer",
+    title: "AI & Software Developer",
     company_name: "WIM",
     icon: wim,
     iconBg: "#E6DEDD",
@@ -185,8 +186,22 @@ const experiences = [
       "Developing AI models for specifis problems",
       "Research about Machine Learning algorithm",
       "Reading research paper",
-      "Reimpleminting research paper",
-      "R & D process"
+      "R & D process",
+      "Develop modern web app with ReactJs"
+    ],
+  },
+  {
+    title: "Lead ML & Software engineer",
+    company_name: "Ouebx",
+    icon: ouebx,
+    iconBg: "#E6DEDD",
+    date: "",
+    points: [
+      "Prompt engineering for GPT",
+      "Frontend engineering",
+      "Developing SDK for spelling",
+      "Frontend system design",
+      "MVP functionnalities details"
     ],
   },
 ];
