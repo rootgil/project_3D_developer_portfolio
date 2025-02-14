@@ -191,7 +191,7 @@ const experiences = [
     ],
   },
   {
-    title: "Lead ML & Software engineer",
+    title: "Software engineer",
     company_name: "Ouebx",
     icon: ouebx,
     iconBg: "#E6DEDD",
