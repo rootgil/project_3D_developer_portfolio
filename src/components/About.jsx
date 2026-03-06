@@ -47,11 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am AI & Software Developer passionate about software development, AI and Robotics. 
-        Specializing in Natural Language Processing, I excel in crafting innovative solutions. 
-        My expertise includes modern and reactive UI development, API development using Python and NodeJS,
-        Cloud Computing, DevOps, MLOps. Adaptable to diverse work environments,
-        I also explore competitive programming, neuroscience, robotics, 3D, and game development      
+        I am an <b>AI & Software Developer</b> passionate about <b>software development</b>, <b>artificial intelligence</b>, and <b>robotics</b>. 
+Specializing in <b>Natural Language Processing</b>, I focus on building <b>innovative and inclusive technologies</b>, particularly solutions that improve <b>accessibility</b> such as <b>sign language translation</b> and communication tools for <b>deaf communities</b>. 
+
+My expertise includes <b>modern and reactive UI development</b>, <b>API development</b> using <b>Python</b> and <b>Node.js</b>, as well as <b>Cloud Computing</b>, <b>DevOps</b>, and <b>MLOps</b>. 
+
+Adaptable to <b>diverse work environments</b>, I also explore <b>competitive programming</b>, <b>neuroscience</b>, <b>robotics</b>, <b>3D technologies</b>, and <b>game development</b>.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
