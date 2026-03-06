@@ -30,7 +30,9 @@ import {
   tf,
   pytorch,
   wim,
-  ouebx
+  thriix,
+  not,
+  deafsync
 } from "../assets";
 
 export const navLinks = [
@@ -193,15 +195,40 @@ const experiences = [
   {
     title: "Software engineer",
     company_name: "Ouebx",
-    icon: ouebx,
+    icon: thriix,
     iconBg: "#E6DEDD",
-    date: "",
+    date: "August 2024 - January 2026",
     points: [
       "Prompt engineering for GPT",
       "Frontend engineering",
       "Developing SDK for spelling",
       "Frontend system design",
       "MVP functionnalities details"
+    ],
+  },
+  {
+    title: "Software engineer",
+    company_name: "Luxaiit",
+    icon: not,
+    iconBg: "#E6DEDD",
+    date: "April 2025 - December 2025",
+    points: [
+      "Design and develop full-stack applications",
+      "Process and manage accountability data",
+      "Build reliable and scalable data workflows"
+    ],
+  },
+  {
+    title: "Co-founder & CTO",
+    company_name: "DeafSync",
+    icon: deafsync,
+    iconBg: "#E6DEDD",
+    date: "2024 - Present",
+    points: [
+      "Lead research and development initiatives and design product strategies.",
+      "Develop 3D avatar animations using Three.js and metadata pipelines.",
+      "Conduct research on AI-driven sign language production and accessibility.",
+      "Manage technical teams and oversee product architecture and development."
     ],
   },
 ];

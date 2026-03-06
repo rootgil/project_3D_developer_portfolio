@@ -33,7 +33,9 @@ import sonar from "./company/sonar.png";
 import ayifa from "./company/ayifa.png";
 import tensorunit from "./company/tensorunit.jpeg";
 import wim from "./company/wim.jpeg"
-import ouebx from "./company/ouebx.png"
+import thriix from "./company/thriix.jpeg"
+import deafsync from "./company/deafsync.png"
+import not from "./company/ouebx.png"
 
 import carrent from "./work/ai-genius.png";
 import jobit from "./work/lambda.png";
@@ -77,5 +79,7 @@ export {
   tripguide,
   pytorch,
   wim,
-  ouebx
+  not,
+  thriix,
+  deafsync
 };
